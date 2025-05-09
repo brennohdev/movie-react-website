@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import Search from "./components/layout/Search.jsx";
 import Header from "./components/layout/Header.jsx";
 import useFetchMovies from "./hooks/useFetchMovies.js";
-import MovieSection from "./components/movie/movieSection.jsx";
+import MovieSection from "./components/movie/MovieSection.jsx";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
